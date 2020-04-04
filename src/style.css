@@ -38,13 +38,13 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .parallax{
-	background:url('images/healthcare.jpg') no-repeat center;
+	background:url('./images/healthcare.jpg') no-repeat center;
 	background-size:cover;
 	background-attachment:fixed;
 	height:500px;
 }
 .parallax-diag{
-	background:url('images/healthcare.jpg') no-repeat center;
+	background:url('./images/healthcare.jpg') no-repeat center;
 	background-size:cover;
 	background-attachment:fixed;
 	height:600px;
