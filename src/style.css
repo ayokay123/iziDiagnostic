@@ -1,0 +1,127 @@
+*{
+	font-family: 'Comfortaa', cursive;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Sen', sans-serif;
+}
+
+
+.navbar-custom{
+	box-shadow:0px 0px 55px 50px black;
+}
+.navbar-custom-scroll{
+	box-shadow:0px 0px 20px 10px black;
+}
+.navbar-s-bg{
+	background: rgba(0, 0, 0, 0.5);
+	border-radius:8px;
+	padding-left:25px;
+}
+.unclickable  {
+	user-select: none;
+}
+
+.button-diag{
+	border-radius:25px;
+	position:relative;
+	top:30px;
+}
+
+.getting-started{
+	position: absolute;
+	top: 35%;
+	transform: translateY(-50%);
+	left:50%;
+	transform:translateX(-50%);
+	font-size: 80px;
+}
+
+.parallax{
+	background:url('images/healthcare.jpg') no-repeat center;
+	background-size:cover;
+	background-attachment:fixed;
+	height:500px;
+}
+.parallax-diag{
+	background:url('images/healthcare.jpg') no-repeat center;
+	background-size:cover;
+	background-attachment:fixed;
+	height:600px;
+}
+.parallax-shade{
+	background-size:cover;
+	background-attachment:fixed;
+	height:100%;
+	background:black;
+	opacity:0.8;
+	position: relative;
+}
+.parallax-shade-diag{
+	background: rgba(0, 0, 0, 0.8);
+	background-size:cover;
+	background-attachment:fixed;
+	height:600px;
+}
+
+.vertical-mid{
+	margin-top:50px;
+}
+.btn-start-now{
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;
+	font-size:50px;
+}
+.btn-start-now-box{
+	border-radius:35px;
+}
+.font-akber{
+	font-size:22px;
+}
+.main-form{
+	background:#e4f3fe;
+	border-radius:20px;
+	opacity:0.9;
+}
+.form-img{
+	background:url('images/happy.jpg') no-repeat center;
+	background-size:cover;
+	opacity:0.9;
+	height:200px;
+}
+.btn-center{
+	text-align: center;
+}
+
+@media (min-width: 768px){
+	.button-diag{
+		top:80px;
+	}
+	.navbar-s-bg{
+		background: rgba(0, 0, 0, 0.0);
+		padding-left:0px;
+	}
+	.parallax{
+		height:300px;
+	}
+	.vertical-mid{
+		margin-top:0px;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		font-size: 80px;
+	}
+
+}
+
+#title1 {
+	animation-delay:0.8s;
+}
+
+#title2 {
+	animation-delay:1.2s;
+}
+
+#title3 {
+	animation-delay:1.6s;
+}
